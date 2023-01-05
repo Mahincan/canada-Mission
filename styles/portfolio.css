@@ -92,7 +92,7 @@ main {
     margin-bottom: 60px;
     font-weight: 700;
     font-size: 35px;
-
+    
 }
 
 .section-description {
@@ -146,41 +146,70 @@ main {
     border-radius: 5px;
     padding: 30px;
 }
-section{
+
+section {
     margin-top: 80px;
 }
+
 /* resume styles */
-.resume-content{
+.resume-content {
     display: flex;
-    gap: 24px; 
+    gap: 24px;
 }
-.resume .title{
+
+.resume .title {
     font-weight: 700;
     font-size: 25px;
     color: rgb(79, 77, 74);
     margin-bottom: 10px;
     margin-top: 10px;
 }
-    
+
 }
-.resume .sub-title{
+
+.resume .sub-title {
     font-weight: 600;
     font-size: 20px;
     color: rgb(57, 52, 45);
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.resume .description{
+
+.resume .description {
     font-weight: 400;
     font-size: 16px;
     color: rgb(134, 123, 109);
     margin-top: 10px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* connect style */
+.contract {
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+
+}
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px; 
+}
+.contract a{
+    text-decoration: none;
 }
